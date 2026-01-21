@@ -15,8 +15,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="color-scheme" content="light dark">
   <!-- Preloads -->
-  <link rel="preload" href="https://loop-snowy-02905842.figma.site/_runtimes/sites-runtime.99c8198c156d0ead1ba5ade2b53ca550c0e92d4afe36629f44a116f28c5f84f8.js" as="script" crossorigin="">
-  <link rel="preload" href="https://loop-snowy-02905842.figma.site/_components/v2/5cf74abcdb16b85fda2f00b7886e7fd6c114b59c.js" as="script" crossorigin="">
+  
+  
   
   <meta name="description" content="This web application allows users to manage their profiles, including updating personal information and accessing various sections like Merchant, Branches, and Videos for enhanced engagement.">
   <title>Design Fintech Homepage</title>
@@ -28,71 +28,97 @@
 <body cz-shortcut-listen="true" style="overflow: unset;">
 
   <!-- Localized JS or CDN links would go here if needed, for now keeping original logic references but they might break if not local -->
-  <script data-template-id="country-code">window.__cf_country = "PK"</script>
-  <script type="module">
-    import { SitesRuntime } from '/_runtimes/sites-runtime.99c8198c156d0ead1ba5ade2b53ca550c0e92d4afe36629f44a116f28c5f84f8.js';
-    const sitesRuntime = new SitesRuntime({
-      container: document.getElementById('container'),
-      env: 'published',
-      bundleId: '0e0c352c-a1d0-4928-bc5c-9221c81e1465',
-      loadComponentsOverNetwork: true,
-      assetsVersion: 'v11',
-      fontsVersion: 'v1',
-      videosVersion: 'v1',
-      codeComponentsVersion: 'v2',
-      wasServerRendered: true,
-      withBaseStyles: false,
-      reportingDomain: "https://www.figma.com",
-      bundleCreationDate: '2025-12-13 19:08:07 UTC',
-      isFigmake: true,
-      enableMetaTags: true,
-    });
-  </script>
+  
+  
 
   <div id="container">
     <div class="">
       <div class="">
         <div class="tailwind css-myl2ny css-exq74d">
           <div class="min-h-screen bg-white">
-            <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-lg transition-all shadow-[0_2px_8px_rgba(0,0,0,0.04)]">
+            <header
+              class="sticky top-0 z-50 bg-white/95 backdrop-blur-lg transition-all shadow-[0_2px_8px_rgba(0,0,0,0.04)]">
               <div class="max-w-[1600px] mx-auto px-6">
                 <div class="flex items-center justify-between h-14">
-                  <button class="flex items-center gap-2 hover:opacity-80 transition-opacity cursor-pointer flex-shrink-0">
-                    <div class="w-8 h-8 bg-[#00A86B] rounded-full flex items-center justify-center"><span class="text-white font-bold">B</span></div><span class="font-bold text-[#111827]">BUZDY</span>
-                  </button>
+                  <a href="index.html"
+                    class="flex items-center gap-2 hover:opacity-80 transition-opacity cursor-pointer flex-shrink-0">
+                    <div class="w-8 h-8 bg-[#00A86B] rounded-full flex items-center justify-center"><span
+                        class="text-white font-bold">B</span></div><span class="font-bold text-[#111827]">BUZDY</span>
+                  </a>
                   <nav class="hidden lg:flex items-center gap-6">
-                    <button class="text-gray-500 hover:text-gray-900 transition-colors whitespace-nowrap">Feed</button>
-                    <button class="text-gray-500 hover:text-gray-900 transition-colors whitespace-nowrap">Products</button>
-                    <button class="text-gray-500 hover:text-gray-900 transition-colors whitespace-nowrap">Banks</button>
-                    <button class="text-gray-500 hover:text-gray-900 transition-colors whitespace-nowrap">Merchant</button>
-                    <button class="text-gray-500 hover:text-gray-900 transition-colors whitespace-nowrap">Branches</button>
-                    <button class="text-gray-500 hover:text-gray-900 transition-colors whitespace-nowrap">Crypto</button>
-                    <button class="text-gray-500 hover:text-gray-900 transition-colors whitespace-nowrap">Deals</button>
-                    <button class="text-gray-500 hover:text-gray-900 transition-colors whitespace-nowrap">Agents</button>
-                    <button class="text-gray-500 hover:text-gray-900 transition-colors whitespace-nowrap">Blog</button>
-                    <button class="text-gray-500 hover:text-gray-900 transition-colors whitespace-nowrap">Videos</button>
+                    <a href="feed.html"
+                      class="text-gray-500 hover:text-gray-900 transition-colors whitespace-nowrap">Feed</a>
+                    <a href="products.html"
+                      class="text-gray-500 hover:text-gray-900 transition-colors whitespace-nowrap">Products</a>
+                    <a href="banks.html"
+                      class="text-gray-500 hover:text-gray-900 transition-colors whitespace-nowrap">Banks</a>
+                    <a href="merchant.html"
+                      class="text-gray-500 hover:text-gray-900 transition-colors whitespace-nowrap">Merchant</a>
+                    <a href="branches.html"
+                      class="text-gray-500 hover:text-gray-900 transition-colors whitespace-nowrap">Branches</a>
+                    <a href="crypto.html"
+                      class="text-gray-500 hover:text-gray-900 transition-colors whitespace-nowrap">Crypto</a>
+                    <a href="deals.html"
+                      class="text-gray-500 hover:text-gray-900 transition-colors whitespace-nowrap">Deals</a>
+                    <a href="agents.html"
+                      class="text-gray-500 hover:text-gray-900 transition-colors whitespace-nowrap">Agents</a>
+                    <a href="blog.html"
+                      class="text-gray-500 hover:text-gray-900 transition-colors whitespace-nowrap">Blog</a>
+                    <a href="videos.html"
+                      class="text-gray-500 hover:text-gray-900 transition-colors whitespace-nowrap">Videos</a>
                   </nav>
-                  <div class="flex items-center gap-3 flex-shrink-0">
-                    <button class="hidden lg:flex items-center px-4 py-2 bg-[#00A86B] text-white rounded-full hover:bg-[#059669] transition-colors whitespace-nowrap">Upgrade</button>
+
+                  <!-- Mobile Menu Button -->
+                  <button class="lg:hidden mobile-menu-btn text-gray-500 hover:text-gray-900 focus:outline-none">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                      stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                  </button>
+
+                  <div class="hidden lg:flex items-center gap-3 flex-shrink-0">
+                    <a href="login.html"
+                      class="hidden lg:flex items-center px-4 py-2 bg-[#00A86B] text-white rounded-full hover:bg-[#059669] transition-colors whitespace-nowrap">Login</a>
                     <div class="flex items-center">
                       <div class="relative">
-                        <button class="flex items-center gap-1.5 px-2 py-1 hover:bg-gray-50 rounded-lg transition-colors">
-                          <img src="assets/img/32.png.png.png" alt="United States" class="w-5 h-5 rounded-sm">
+                        <button
+                          class="flex items-center gap-1.5 px-2 py-1 hover:bg-gray-50 rounded-lg transition-colors">
+                          <img src="assets/img/32.png" alt="United States" class="w-5 h-5 rounded-sm">
                           <span class="text-sm text-gray-600">US</span>
-                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down w-3.5 h-3.5 text-gray-400" aria-hidden="true">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-chevron-down w-3.5 h-3.5 text-gray-400" aria-hidden="true">
                             <path d="m6 9 6 6 6-6"></path>
                           </svg>
                         </button>
                       </div>
                     </div>
                     <div class="relative">
-                      <button class="flex items-center hover:opacity-80 transition-opacity">
+                      <a href="profile.html" class="flex items-center hover:opacity-80 transition-opacity">
                         <div class="w-9 h-9 rounded-full overflow-hidden">
-                          <img src="assets/img/photo-1581065178047-8ee15951ede6.jpg.jpg" alt="User profile" class="w-full h-full object-cover">
+                          <img src="assets/img/photo-1581065178047-8ee15951ede6.jpg" alt="User profile"
+                            class="w-full h-full object-cover">
                         </div>
-                      </button>
+                      </a>
                     </div>
                   </div>
+                </div>
+
+                <!-- Mobile Menu (Hidden by default) -->
+                <div class="mobile-menu hidden lg:hidden pb-4">
+                  <nav class="flex flex-col gap-2 mt-2">
+                    <a href="feed.html" class="block py-2 text-gray-500 hover:text-[#00A86B]">Feed</a>
+                    <a href="products.html" class="block py-2 text-gray-500 hover:text-[#00A86B]">Products</a>
+                    <a href="banks.html" class="block py-2 text-gray-500 hover:text-[#00A86B]">Banks</a>
+                    <a href="merchant.html" class="block py-2 text-gray-500 hover:text-[#00A86B]">Merchant</a>
+                    <a href="branches.html" class="block py-2 text-gray-500 hover:text-[#00A86B]">Branches</a>
+                    <a href="crypto.html" class="block py-2 text-gray-500 hover:text-[#00A86B]">Crypto</a>
+                    <a href="deals.html" class="block py-2 text-gray-500 hover:text-[#00A86B]">Deals</a>
+                    <a href="agents.html" class="block py-2 text-gray-500 hover:text-[#00A86B]">Agents</a>
+                    <a href="blog.html" class="block py-2 text-gray-500 hover:text-[#00A86B]">Blog</a>
+                    <a href="videos.html" class="block py-2 text-gray-500 hover:text-[#00A86B]">Videos</a>
+                  </nav>
                 </div>
               </div>
             </header>
@@ -191,23 +217,77 @@
             
             </main>
 
-            <footer class="bg-black border-t border-gray-900">
-              <div class="max-w-7xl mx-auto px-6">
-                <!-- Footer content matches original but cleaned up if needed -->
-                <div class="flex justify-center py-6 border-b border-gray-900">
-                  <div class="w-12 h-12 bg-gradient-to-br from-[#00A86B] to-[#008F5D] rounded-lg flex items-center justify-center">
-                    <span class="text-white text-2xl font-bold">B</span>
+            <footer class="bg-black border-t border-gray-900 text-white pt-16 pb-8">
+              <div class="max-w-[1600px] mx-auto px-6">
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
+                  <!-- Brand -->
+                  <div class="space-y-4">
+                    <div class="flex items-center gap-2">
+                      <div class="w-8 h-8 bg-[#00A86B] rounded-full flex items-center justify-center"><span
+                          class="text-white font-bold">B</span></div>
+                      <span class="font-bold text-xl">BUZDY</span>
+                    </div>
+                    <p class="text-gray-400 text-sm">Empowering your financial journey with advanced banking solutions
+                      and crypto insights.</p>
+                  </div>
+
+                  <!-- Quick Links -->
+                  <div>
+                    <h3 class="font-bold mb-4 text-[#00A86B]">Company</h3>
+                    <ul class="space-y-2 text-sm text-gray-400">
+                      <li><a href="about_us.html" class="hover:text-white transition-colors">About Us</a></li>
+                      <li><a href="contact_us.html" class="hover:text-white transition-colors">Contact</a></li>
+                      <li><a href="blog.html" class="hover:text-white transition-colors">Blog</a></li>
+                      <li><a href="#" class="hover:text-white transition-colors">Careers</a></li>
+                    </ul>
+                  </div>
+
+                  <!-- Products -->
+                  <div>
+                    <h3 class="font-bold mb-4 text-[#00A86B]">Products</h3>
+                    <ul class="space-y-2 text-sm text-gray-400">
+                      <li><a href="products.html" class="hover:text-white transition-colors">Credit Cards</a></li>
+                      <li><a href="crypto.html" class="hover:text-white transition-colors">Crypto Exchange</a></li>
+                      <li><a href="merchant.html" class="hover:text-white transition-colors">Business Banking</a></li>
+                      <li><a href="loans.html" class="hover:text-white transition-colors">Loans</a></li>
+                    </ul>
+                  </div>
+
+                  <!-- Legal -->
+                  <div>
+                    <h3 class="font-bold mb-4 text-[#00A86B]">Legal</h3>
+                    <ul class="space-y-2 text-sm text-gray-400">
+                      <li><a href="#" class="hover:text-white transition-colors">Privacy Policy</a></li>
+                      <li><a href="#" class="hover:text-white transition-colors">Terms of Service</a></li>
+                      <li><a href="#" class="hover:text-white transition-colors">Security</a></li>
+                    </ul>
                   </div>
                 </div>
-                <!-- Links and other footer elements... (simplified for template, user can copy full footer if needed, but I'll include the structure) -->
-                <div class="flex flex-wrap items-center justify-center gap-x-8 gap-y-4 py-6 border-b border-gray-900">
-                   <button class="text-sm text-white hover:text-[#00A86B] transition-colors cursor-pointer bg-transparent border-none p-0">About Us</button>
-                   <!-- ... other buttons ... -->
-                </div>
-                <div class="py-6 grid grid-cols-1 md:grid-cols-3 gap-6 items-center">
-                   <!-- Payment methods and Socials -->
-                   <div class="text-center md:text-right">
-                    <p class="text-xs text-gray-500">© 2026 Buzdy. All rights reserved.</p>
+
+                <div class="border-t border-gray-900 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
+                  <p class="text-xs text-gray-500">© 2026 Buzdy. All rights reserved.</p>
+                  <div class="flex gap-4">
+                    <a href="#" class="text-gray-400 hover:text-[#00A86B] transition-colors"><svg
+                        xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="lucide lucide-twitter">
+                        <path
+                          d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z" />
+                      </svg></a>
+                    <a href="#" class="text-gray-400 hover:text-[#00A86B] transition-colors"><svg
+                        xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="lucide lucide-facebook">
+                        <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
+                      </svg></a>
+                    <a href="#" class="text-gray-400 hover:text-[#00A86B] transition-colors"><svg
+                        xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="lucide lucide-linkedin">
+                        <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+                        <rect width="4" height="12" x="2" y="9" />
+                        <circle cx="4" cy="4" r="2" />
+                      </svg></a>
                   </div>
                 </div>
               </div>
@@ -225,6 +305,7 @@
     </main>
   </noscript>
 
+  <script src="assets/js/main.js"></script>
 </body>
 </html>
 
