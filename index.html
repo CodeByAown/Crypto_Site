@@ -247,20 +247,20 @@
                         <div
                           class="flex gap-2 p-2.5 bg-gradient-to-r from-[#F0FDF4] to-[#E6F9F0] border-b border-[#BBF7D0]">
                           <button
-                            class="flex-1 py-2.5 px-4 rounded-xl font-medium transition-all duration-300 bg-transparent text-[#6B7280] hover:bg-white/50 hover:text-[#374151]">
+                            class="flex-1 py-2.5 px-4 rounded-xl font-medium transition-all duration-300 bg-white text-[#00A86B] shadow-lg shadow-[#00A86B]/20 border border-[#00A86B]/30">
                             <div class="flex items-center justify-center gap-2"><svg xmlns="http://www.w3.org/2000/svg"
                                 width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                class="lucide lucide-search w-[15px] h-[15px] text-[#6B7280]" aria-hidden="true">
+                                class="lucide lucide-search w-[15px] h-[15px] text-[#00A86B]" aria-hidden="true">
                                 <path d="m21 21-4.34-4.34"></path>
                                 <circle cx="11" cy="11" r="8"></circle>
                               </svg><span class="text-[14px]">Classic Search</span></div>
                           </button><button
-                            class="flex-1 py-2.5 px-4 rounded-xl font-medium transition-all duration-300 bg-gradient-to-r from-[#00A86B] to-[#10B981] text-white shadow-lg shadow-[#00A86B]/40">
+                            class="flex-1 py-2.5 px-4 rounded-xl font-medium transition-all duration-300 bg-transparent text-[#6B7280] hover:bg-white/50 hover:text-[#374151]">
                             <div class="flex items-center justify-center gap-2"><svg xmlns="http://www.w3.org/2000/svg"
                                 width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                class="lucide lucide-sparkles w-[15px] h-[15px] text-white" aria-hidden="true">
+                                class="lucide lucide-sparkles w-[15px] h-[15px] text-[#6B7280]" aria-hidden="true">
                                 <path
                                   d="M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594z">
                                 </path>
@@ -268,70 +268,207 @@
                                 <path d="M22 4h-4"></path>
                                 <circle cx="4" cy="20" r="2"></circle>
                               </svg><span class="text-[14px]">AI SmartMatch™</span></div>
-                          </button>
-                        </div>
-                        <div class="flex flex-col h-[500px]" style="opacity: 1; transform: none;">
-                          <div class="flex-1 overflow-y-auto p-6 space-y-6 bg-white"
-                            style="scroll-behavior: smooth; scrollbar-width: none;">
-                            <div style="opacity: 1; transform: none;">
-                              <div class="flex gap-0">
-                                <div class="flex-1">
+                          </button></div>
+                        <div class="p-5 h-[500px] flex flex-col" style="opacity: 1; transform: none;">
+                          <div class="mb-3">
+                            <h3 class="mb-1 text-[20px]">Find Your Perfect Match</h3>
+                            <p class="text-sm text-[#6B7280] leading-relaxed">Search from thousands of banking products
+                              across multiple countries</p>
+                          </div>
+                          <div class="flex flex-wrap gap-2 mb-3">
+                            <div
+                              class="px-3 py-1 bg-gradient-to-r from-[#F0FDF4] to-[#E6F9F0] border border-[#BBF7D0] rounded-full text-xs text-[#00804B] font-medium flex items-center gap-1.5"
+                              style="opacity: 1; transform: none;"><span>🌟</span><span>Popular Filters</span></div>
+                            <div
+                              class="px-3 py-1 bg-gradient-to-r from-[#F0FDF4] to-[#E6F9F0] border border-[#BBF7D0] rounded-full text-xs text-[#00804B] font-medium flex items-center gap-1.5"
+                              style="opacity: 1; transform: none;"><span>⚡</span><span>Quick Match</span></div>
+                            <div
+                              class="px-3 py-1 bg-gradient-to-r from-[#F0FDF4] to-[#E6F9F0] border border-[#BBF7D0] rounded-full text-xs text-[#00804B] font-medium flex items-center gap-1.5"
+                              style="opacity: 1; transform: none;"><span>🔒</span><span>Secure Search</span></div>
+                          </div>
+                          <div class="space-y-3">
+                            <div style="transform: none;">
+                              <div class="w-full"><label class="block text-sm font-medium text-[#374151] mb-2">Select
+                                  Country</label>
+                                <div class="relative">
                                   <div
-                                    class="bg-gradient-to-br from-[#F3F4F6] to-[#E5E7EB] rounded-2xl p-3.5 max-w-[80%] border border-[#D1D5DB] shadow-sm"
-                                    style="box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 8px; opacity: 1;">
-                                    <p class="text-[14px] text-[#374151] font-light tracking-wide">How can I help you
-                                      today?</p>
-                                  </div>
-                                  <div class="flex flex-wrap gap-2.5 mt-5" style="opacity: 1;"><button
-                                      class="px-4 py-1.5 bg-white border border-[#D1D5DB] text-[#6B7280] rounded-full text-[13px] font-light hover:bg-[#F9FAFB] hover:border-[#10B981] hover:text-[#10B981] transition-all"
-                                      tabindex="0"
-                                      style="height: 32px; box-shadow: rgba(0, 0, 0, 0.06) 0px 1px 3px; opacity: 1; transform: none;">Best
-                                      card</button><button
-                                      class="px-4 py-1.5 bg-white border border-[#D1D5DB] text-[#6B7280] rounded-full text-[13px] font-light hover:bg-[#F9FAFB] hover:border-[#10B981] hover:text-[#10B981] transition-all"
-                                      tabindex="0"
-                                      style="height: 32px; box-shadow: rgba(0, 0, 0, 0.06) 0px 1px 3px; opacity: 1; transform: none;">Compare</button><button
-                                      class="px-4 py-1.5 bg-white border border-[#D1D5DB] text-[#6B7280] rounded-full text-[13px] font-light hover:bg-[#F9FAFB] hover:border-[#10B981] hover:text-[#10B981] transition-all"
-                                      tabindex="0"
-                                      style="height: 32px; box-shadow: rgba(0, 0, 0, 0.06) 0px 1px 3px; opacity: 1; transform: none;">Islamic
-                                      cards</button><button
-                                      class="px-4 py-1.5 bg-white border border-[#D1D5DB] text-[#6B7280] rounded-full text-[13px] font-light hover:bg-[#F9FAFB] hover:border-[#10B981] hover:text-[#10B981] transition-all"
-                                      tabindex="0"
-                                      style="height: 32px; box-shadow: rgba(0, 0, 0, 0.06) 0px 1px 3px; opacity: 1; transform: none;">Low
-                                      salary</button><button
-                                      class="px-4 py-1.5 bg-white border border-[#D1D5DB] text-[#6B7280] rounded-full text-[13px] font-light hover:bg-[#F9FAFB] hover:border-[#10B981] hover:text-[#10B981] transition-all"
-                                      tabindex="0"
-                                      style="height: 32px; box-shadow: rgba(0, 0, 0, 0.06) 0px 1px 3px; opacity: 1; transform: none;">Travel</button>
-                                  </div>
+                                    class="absolute left-4 top-1/2 -translate-y-1/2 text-[#9CA3AF] pointer-events-none z-10">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                      fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                      stroke-linejoin="round" class="lucide lucide-globe w-5 h-5" aria-hidden="true">
+                                      <circle cx="12" cy="12" r="10"></circle>
+                                      <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"></path>
+                                      <path d="M2 12h20"></path>
+                                    </svg></div><select class="
+            w-full pl-11 pr-10 py-2.5 h-[48px]
+            border rounded-xl
+            border-[#E5E7EB] focus:ring-[#00A86B]
+            bg-white text-[#111827]
+            focus:outline-none focus:ring-2 focus:border-transparent
+            disabled:bg-[#F9FAFB] disabled:cursor-not-allowed
+            appearance-none cursor-pointer
+            transition-all duration-200
+            
+          ">
+                                    <option value="global">🌍 Global - All Countries</option>
+                                    <option value="ae">🇦🇪 United Arab Emirates</option>
+                                    <option value="sa">🇸🇦 Saudi Arabia</option>
+                                    <option value="us">🇺🇸 United States</option>
+                                    <option value="gb">🇬🇧 United Kingdom</option>
+                                    <option value="in">🇮🇳 India</option>
+                                    <option value="sg">🇸🇬 Singapore</option>
+                                  </select>
+                                  <div
+                                    class="absolute right-4 top-1/2 -translate-y-1/2 pointer-events-none text-[#9CA3AF]">
+                                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M19 9l-7 7-7-7"></path>
+                                    </svg></div>
                                 </div>
                               </div>
                             </div>
+                            <div style="transform: none;">
+                              <div class="w-full"><label class="block text-sm font-medium text-[#374151] mb-2">City
+                                  (Optional)</label>
+                                <div class="relative">
+                                  <div
+                                    class="absolute left-4 top-1/2 -translate-y-1/2 text-[#9CA3AF] pointer-events-none z-10">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                      fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                      stroke-linejoin="round" class="lucide lucide-map-pin w-5 h-5" aria-hidden="true">
+                                      <path
+                                        d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0">
+                                      </path>
+                                      <circle cx="12" cy="10" r="3"></circle>
+                                    </svg></div><select class="
+            w-full pl-11 pr-10 py-2.5 h-[48px]
+            border rounded-xl
+            border-[#E5E7EB] focus:ring-[#00A86B]
+            bg-white text-[#111827]
+            focus:outline-none focus:ring-2 focus:border-transparent
+            disabled:bg-[#F9FAFB] disabled:cursor-not-allowed
+            appearance-none cursor-pointer
+            transition-all duration-200
+            
+          ">
+                                    <option value="all">All Cities</option>
+                                    <option value="dubai">Dubai</option>
+                                    <option value="riyadh">Riyadh</option>
+                                    <option value="london">London</option>
+                                  </select>
+                                  <div
+                                    class="absolute right-4 top-1/2 -translate-y-1/2 pointer-events-none text-[#9CA3AF]">
+                                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M19 9l-7 7-7-7"></path>
+                                    </svg></div>
+                                </div>
+                              </div>
+                            </div>
+                            <div style="transform: none;">
+                              <div class="w-full"><label class="block text-sm font-medium text-[#374151] mb-2">Bank
+                                  (Optional)</label>
+                                <div class="relative">
+                                  <div
+                                    class="absolute left-4 top-1/2 -translate-y-1/2 text-[#9CA3AF] pointer-events-none z-10">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                      fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                      stroke-linejoin="round" class="lucide lucide-building2 lucide-building-2 w-5 h-5"
+                                      aria-hidden="true">
+                                      <path d="M10 12h4"></path>
+                                      <path d="M10 8h4"></path>
+                                      <path d="M14 21v-3a2 2 0 0 0-4 0v3"></path>
+                                      <path
+                                        d="M6 10H4a2 2 0 0 0-2 2v7a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-2">
+                                      </path>
+                                      <path d="M6 21V5a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v16"></path>
+                                    </svg></div><select class="
+            w-full pl-11 pr-10 py-2.5 h-[48px]
+            border rounded-xl
+            border-[#E5E7EB] focus:ring-[#00A86B]
+            bg-white text-[#111827]
+            focus:outline-none focus:ring-2 focus:border-transparent
+            disabled:bg-[#F9FAFB] disabled:cursor-not-allowed
+            appearance-none cursor-pointer
+            transition-all duration-200
+            
+          ">
+                                    <option value="all">All Banks</option>
+                                    <option value="chase">Chase</option>
+                                    <option value="hsbc">HSBC</option>
+                                    <option value="emiratesnbd">Emirates NBD</option>
+                                  </select>
+                                  <div
+                                    class="absolute right-4 top-1/2 -translate-y-1/2 pointer-events-none text-[#9CA3AF]">
+                                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M19 9l-7 7-7-7"></path>
+                                    </svg></div>
+                                </div>
+                              </div>
+                            </div>
+                            <div tabindex="0" style="transform: none;"><button
+                                class="inline-flex items-center justify-center gap-2 font-medium transition-all duration-200 disabled:cursor-not-allowed focus:outline-none focus:ring-2 focus:ring-[#00A86B] focus:ring-offset-2 bg-[#00A86B] text-white hover:bg-[#007E55] shadow-md hover:shadow-lg disabled:opacity-50 relative z-10 px-4 py-2 text-sm rounded-full w-full shadow-lg hover:shadow-xl h-[48px]"><svg
+                                  xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                  fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                  stroke-linejoin="round" class="lucide lucide-search w-4 h-4" aria-hidden="true">
+                                  <path d="m21 21-4.34-4.34"></path>
+                                  <circle cx="11" cy="11" r="8"></circle>
+                                </svg>Search Products</button></div>
                           </div>
-                          <div class="p-3 border-t border-[#E5E7EB] bg-white"
-                            style="box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 0px inset;">
-                            <div class="flex gap-2">
-                              <div class="flex-1 relative"><input type="text"
-                                  placeholder="Ask anything about credit cards, loans, or banks..."
-                                  class="w-full px-4 py-3 pr-10 bg-[#F9FAFB] border border-[#E5E7EB] rounded-full text-[14px] text-[#111827] placeholder-[#9CA3AF] focus:outline-none focus:ring-2 focus:ring-[#10B981] focus:border-transparent transition-all hover:border-[#10B981]/40"
-                                  value="" style="box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 3px;"><button
-                                  class="absolute right-3 top-1/2 -translate-y-1/2 text-[#6B7280] hover:text-[#34D399] transition-colors"
-                                  tabindex="0"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                    stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mic w-4 h-4"
+                          <div class="mt-3 pt-3 border-t border-[#E5E7EB]">
+                            <div class="flex flex-col gap-2">
+                              <div class="flex items-center gap-2.5" style="opacity: 1; transform: none;">
+                                <div
+                                  class="w-6 h-6 bg-gradient-to-br from-[#00A86B] to-[#10B981] rounded-full flex items-center justify-center flex-shrink-0 shadow-sm">
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-check w-3.5 h-3.5 text-white"
                                     aria-hidden="true">
-                                    <path d="M12 19v3"></path>
-                                    <path d="M19 10v2a7 7 0 0 1-14 0v-2"></path>
-                                    <rect x="9" y="2" width="6" height="13" rx="3"></rect>
-                                  </svg></button></div><button disabled=""
-                                class="w-11 h-11 bg-gradient-to-br from-[#10B981] to-[#059669] rounded-full flex items-center justify-center hover:shadow-xl transition-all disabled:opacity-50 disabled:cursor-not-allowed"
-                                tabindex="0"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                  viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                  stroke-linecap="round" stroke-linejoin="round"
-                                  class="lucide lucide-send w-4 h-4 text-white" aria-hidden="true">
-                                  <path
-                                    d="M14.536 21.686a.5.5 0 0 0 .937-.024l6.5-19a.496.496 0 0 0-.635-.635l-19 6.5a.5.5 0 0 0-.024.937l7.93 3.18a2 2 0 0 1 1.112 1.11z">
-                                  </path>
-                                  <path d="m21.854 2.147-10.94 10.939"></path>
-                                </svg></button>
+                                    <path d="M20 6 9 17l-5-5"></path>
+                                  </svg></div><span class="text-[13px] text-[#374151] font-medium">100% Free &amp;
+                                  Unbiased</span>
+                              </div>
+                              <div class="flex items-center gap-2.5" style="opacity: 1; transform: none;">
+                                <div
+                                  class="w-6 h-6 bg-gradient-to-br from-[#3B82F6] to-[#60A5FA] rounded-full flex items-center justify-center flex-shrink-0 shadow-sm">
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-check w-3.5 h-3.5 text-white"
+                                    aria-hidden="true">
+                                    <path d="M20 6 9 17l-5-5"></path>
+                                  </svg></div><span class="text-[13px] text-[#374151] font-medium">No Signup
+                                  Required</span>
+                              </div>
+                              <div class="flex items-center gap-2.5" style="opacity: 1; transform: none;">
+                                <div
+                                  class="w-6 h-6 bg-gradient-to-br from-[#8B5CF6] to-[#A78BFA] rounded-full flex items-center justify-center flex-shrink-0 shadow-sm">
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-check w-3.5 h-3.5 text-white"
+                                    aria-hidden="true">
+                                    <path d="M20 6 9 17l-5-5"></path>
+                                  </svg></div><span class="text-[13px] text-[#374151] font-medium">Instant
+                                  Results</span>
+                              </div>
+                            </div>
+                          </div>
+                          <div
+                            class="mt-3 p-2.5 bg-gradient-to-r from-[#F0FDF4] to-[#E6F9F0] rounded-xl border border-[#BBF7D0]"
+                            style="opacity: 1;">
+                            <div class="flex items-center gap-2">
+                              <div class="w-7 h-7 bg-white rounded-lg flex items-center justify-center shadow-sm"><svg
+                                  xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                  fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                  stroke-linejoin="round" class="lucide lucide-trending-up w-3.5 h-3.5 text-[#00A86B]"
+                                  aria-hidden="true">
+                                  <path d="M16 7h6v6"></path>
+                                  <path d="m22 7-8.5 8.5-5-5L2 17"></path>
+                                </svg></div>
+                              <div class="flex-1">
+                                <p class="text-[10px] text-[#00804B] font-medium">2.5M+ Products Compared</p>
+                                <p class="text-[9px] text-[#6B7280]">Trusted by millions worldwide</p>
+                              </div>
                             </div>
                           </div>
                         </div>
@@ -2687,81 +2824,124 @@
 
             </main>
 
-            <footer class="bg-black border-t border-gray-900 text-white pt-16 pb-8">
-              <div class="max-w-[1600px] mx-auto px-6">
-                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
-                  <!-- Brand -->
-                  <div class="space-y-4">
-                    <div class="flex items-center gap-2">
-                      <div class="w-8 h-8 bg-[#00A86B] rounded-full flex items-center justify-center"><span
-                          class="text-white font-bold">B</span></div>
-                      <span class="font-bold text-xl">BUZDY</span>
-                    </div>
-                    <p class="text-gray-400 text-sm">Empowering your financial journey with advanced banking solutions
-                      and crypto insights.</p>
-                  </div>
+            <footer class="bg-black text-white pt-16 pb-8 border-t border-gray-900">
+    <div class="max-w-[1400px] mx-auto px-6">
+        <!-- Top: Centered Logo -->
+        <div class="flex flex-col items-center justify-center mb-12">
+            <div
+                class="w-12 h-12 bg-[#00A86B] rounded-full flex items-center justify-center mb-4 shadow-[0_0_20px_rgba(0,168,107,0.4)]">
+                <span class="text-white font-bold text-2xl">B</span>
+            </div>
+        </div>
 
-                  <!-- Quick Links -->
-                  <div>
-                    <h3 class="font-bold mb-4 text-[#00A86B]">Company</h3>
-                    <ul class="space-y-2 text-sm text-gray-400">
-                      <li><a href="about_us.html" class="hover:text-white transition-colors">About Us</a></li>
-                      <li><a href="contact_us.html" class="hover:text-white transition-colors">Contact</a></li>
-                      <li><a href="blog.html" class="hover:text-white transition-colors">Blog</a></li>
-                      <li><a href="#" class="hover:text-white transition-colors">Careers</a></li>
-                    </ul>
-                  </div>
+        <!-- Middle: Navigation -->
+        <div class="flex flex-wrap justify-center gap-x-8 gap-y-4 mb-12 text-sm font-medium text-gray-300">
+            <a href="about_us.html" class="hover:text-[#00A86B] transition-colors">About Us</a>
+            <a href="banks.html" class="hover:text-[#00A86B] transition-colors">Banks</a>
+            <a href="merchant.html" class="hover:text-[#00A86B] transition-colors">Merchants</a>
+            <a href="products.html" class="hover:text-[#00A86B] transition-colors">Products</a>
+            <a href="deals.html" class="hover:text-[#00A86B] transition-colors">Deals</a>
+            <a href="agent_portal.html" class="hover:text-[#00A86B] transition-colors">Agent Portal</a>
+            <a href="blog.html" class="hover:text-[#00A86B] transition-colors">Blogs</a>
+            <a href="contact_us.html" class="hover:text-[#00A86B] transition-colors">Contact Us</a>
+        </div>
 
-                  <!-- Products -->
-                  <div>
-                    <h3 class="font-bold mb-4 text-[#00A86B]">Products</h3>
-                    <ul class="space-y-2 text-sm text-gray-400">
-                      <li><a href="products.html" class="hover:text-white transition-colors">Credit Cards</a></li>
-                      <li><a href="crypto.html" class="hover:text-white transition-colors">Crypto Exchange</a></li>
-                      <li><a href="merchant.html" class="hover:text-white transition-colors">Business Banking</a></li>
-                      <li><a href="loans.html" class="hover:text-white transition-colors">Loans</a></li>
-                    </ul>
-                  </div>
+        <!-- Divider -->
+        <div class="border-t border-gray-800 mb-8"></div>
 
-                  <!-- Legal -->
-                  <div>
-                    <h3 class="font-bold mb-4 text-[#00A86B]">Legal</h3>
-                    <ul class="space-y-2 text-sm text-gray-400">
-                      <li><a href="#" class="hover:text-white transition-colors">Privacy Policy</a></li>
-                      <li><a href="#" class="hover:text-white transition-colors">Terms of Service</a></li>
-                      <li><a href="#" class="hover:text-white transition-colors">Security</a></li>
-                    </ul>
-                  </div>
+        <!-- Bottom: Actions -->
+        <div class="flex flex-col md:flex-row items-center justify-between gap-6 text-sm">
+
+            <!-- Payment Methods -->
+            <div class="flex items-center gap-3">
+                <span class="text-gray-400">Payment Method:</span>
+                <div class="flex gap-2">
+                    <div class="bg-white rounded px-2 py-1 h-6 flex items-center"><svg
+                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 24" width="24" height="16">
+                            <path fill="#1A1F71" d="M14.073 16.476l2.21-13.633h3.553l-2.21 13.633z" />
+                            <path fill="#F79E1B"
+                                d="M22.086 4.394c-.886-.46-2.266-.96-3.993-.96-4.406 0-7.508 2.348-7.525 5.713-.02 2.486 2.22 3.87 3.91 4.7 1.737.848 2.32 1.393 2.32 2.15 0 1.16-.1.4 1.76-3.71 1.76 1.7-.358 2.802-.916 3.73-1.63l-.53-.25c.78-.36.27-.478 3.554-1.895 6.075-.418 2.502-2.673 3.922-4.267 4.717-.5.234-1.396.48-1.554.54l-2.488 11.66h3.766c.55-2.062 1.63-5.26 2.05-6.903.95-3.66 2.766-4.735 4.88-5.385l-1.334 6.25c-.24 1.135.084 1.258.98 1.455l.89-.413.518-2.43c.216-1.12.87-1.42 2.296-3.66.07-5.07-2.3-7.576-5.88-7.755z" />
+                            <path fill="#FF5F00"
+                                d="M12.923 4.394C11.624 4.394 9.3 11.238 9.3 11.238S7.485 5.093 7.373 4.67C7.228 4.14 6.582 3.86 6.088 3.83L2.24 3.81c-.502-.02-.91.332-1.07.82-.045.14 4.12 10.875 9.06 17.51l-2.73-13.84c-.11-.49.33-.94.88-.94h2.528z" />
+                        </svg></div>
+                    <div class="bg-white rounded px-2 py-1 h-6 flex items-center"><svg
+                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 24" width="24" height="16">
+                            <circle cx="12" cy="12" r="12" fill="#EB001B" />
+                            <circle cx="24" cy="12" r="12" fill="#F79E1B" fill-opacity=".8" />
+                            <path fill="none" d="M0 0h36v24H0z" />
+                        </svg></div>
+                    <div class="bg-white rounded px-2 py-1 h-6 flex items-center"><svg
+                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 24" width="24" height="16">
+                            <rect width="36" height="24" rx="2" fill="#00579F" />
+                            <path fill="#FFF"
+                                d="M13.5 12.5c0 2.5-2 4.5-4.5 4.5s-4.5-2-4.5-4.5 2-4.5 4.5-4.5 4.5 2 4.5 4.5z" />
+                            <path fill="#F23C13"
+                                d="M26.5 7h-6c-.3 0-.5.2-.5.5v10c0 .3.2.5.5.5h6c.3 0 .5-.2.5-.5v-10c0-.3-.2-.5-.5-.5z" />
+                        </svg></div>
                 </div>
+            </div>
 
-                <div class="border-t border-gray-900 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
-                  <p class="text-xs text-gray-500">© 2026 Buzdy. All rights reserved.</p>
-                  <div class="flex gap-4">
-                    <a href="#" class="text-gray-400 hover:text-[#00A86B] transition-colors"><svg
-                        xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
-                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                        class="lucide lucide-twitter">
-                        <path
-                          d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z" />
-                      </svg></a>
-                    <a href="#" class="text-gray-400 hover:text-[#00A86B] transition-colors"><svg
-                        xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
-                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                        class="lucide lucide-facebook">
-                        <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
-                      </svg></a>
-                    <a href="#" class="text-gray-400 hover:text-[#00A86B] transition-colors"><svg
-                        xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
-                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                        class="lucide lucide-linkedin">
-                        <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
-                        <rect width="4" height="12" x="2" y="9" />
-                        <circle cx="4" cy="4" r="2" />
-                      </svg></a>
-                  </div>
+            <!-- Social Icons -->
+            <div class="flex items-center gap-3">
+                <span class="text-gray-400">Follow Us:</span>
+                <div class="flex gap-2">
+                    <a href="#"
+                        class="w-8 h-8 rounded-full bg-[#00A86B] flex items-center justify-center text-white hover:bg-[#00945E] transition-all hover:-translate-y-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-facebook">
+                            <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
+                        </svg>
+                    </a>
+                    <a href="#"
+                        class="w-8 h-8 rounded-full bg-[#00A86B] flex items-center justify-center text-white hover:bg-[#00945E] transition-all hover:-translate-y-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-twitter">
+                            <path
+                                d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z" />
+                        </svg>
+                    </a>
+                    <a href="#"
+                        class="w-8 h-8 rounded-full bg-[#00A86B] flex items-center justify-center text-white hover:bg-[#00945E] transition-all hover:-translate-y-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-instagram">
+                            <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
+                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                            <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
+                        </svg>
+                    </a>
+                    <a href="#"
+                        class="w-8 h-8 rounded-full bg-[#00A86B] flex items-center justify-center text-white hover:bg-[#00945E] transition-all hover:-translate-y-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-linkedin">
+                            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+                            <rect width="4" height="12" x="2" y="9" />
+                            <circle cx="4" cy="4" r="2" />
+                        </svg>
+                    </a>
+                    <a href="#"
+                        class="w-8 h-8 rounded-full bg-[#00A86B] flex items-center justify-center text-white hover:bg-[#00945E] transition-all hover:-translate-y-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-youtube">
+                            <path
+                                d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.55 49.55 0 0 1-16.2 0A2 2 0 0 1 2.5 17" />
+                            <path d="m10 15 5-3-5-3z" />
+                        </svg>
+                    </a>
                 </div>
-              </div>
-            </footer>
+            </div>
+
+            <!-- Copyright -->
+            <div class="text-gray-500">
+                © 2026 Buzdy. All rights reserved.
+            </div>
+        </div>
+    </div>
+</footer>
           </div>
         </div>
       </div>
